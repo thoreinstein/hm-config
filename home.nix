@@ -74,6 +74,13 @@
         enableShellIntegration = true;
       };
     };
+    gh = {
+      enable = true;
+      gitCredentialHelper = {
+        enable = true;
+        hosts = [ "https://github.intuit.com" ];
+      };
+    };
     git = {
       enable = true;
       aliases = {
